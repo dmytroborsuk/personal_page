@@ -1,0 +1,21 @@
+.container {
+    background: yellowgreen;
+    width: 100%;
+    height: 500px;
+    padding: 13px;
+    border: 1px solid black;
+}
+.button {
+    width: 130px;
+    text-align: center;
+    height: 30px;
+}
+
+.button-development-start {
+    background-color: rgb(224, 189, 154);
+}
+
+.button-development-stop {
+    background-color: rgb(228, 102, 86);
+    width: 140px;
+}
