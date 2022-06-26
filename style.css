@@ -24,11 +24,16 @@
     width: 140px;
 }
 
+.code-block-wrapper {
+    height: 500px;
+    width: 500px;
+    overflow-y: scroll;
+}
 .code-block {
     display: none;
     width: 500px;
     color: blue;
-    height: 1000px;
+    height: 700px;
     background: azure;
     margin: 10px;
 }
