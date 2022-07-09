@@ -1,6 +1,6 @@
 .container {
-    background: yellowgreen;
-    width: 100%;
+    background: #3253cd;
+    /*width: 100%;  убрать */
     height: 500px;
     padding: 13px;
     border: 1px solid black;
