@@ -1,7 +1,7 @@
 .container {
     background: #3253cd;
-    /*width: 100%;  убрать */
-    height: 500px;
+    /*width: 100%;  не потрібен   */
+    /* height: 500px; не потрібен  */
     padding: 13px;
     border: 1px solid black;
     justify-content: space-between;
@@ -44,4 +44,9 @@
 
 .show {
     display: block;
+}
+
+.table-of-contents {
+    margin: 3ch;
+    text-indent: 20ch;
 }
