@@ -1,5 +1,5 @@
 .container {
-    background: #3253cd;
+    background: #000000e3;
     /*width: 100%;  не потрібен   */
     /* height: 500px; не потрібен  */
     padding: 13px;
@@ -7,7 +7,17 @@
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    color: white;
 }
+
+.menu {
+    background: rgb(228 102 86 / 91%);
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+}
+
 .button {
     width: 130px;
     text-align: center;
@@ -26,8 +36,9 @@
 
 .code-block-wrapper {
     height: 500px;
-    width: 500px;
-    overflow-y: scroll;
+    width: 537px;
+    overflow-y: auto;
+    margin: 2ch;
 }
 .code-block {
     display: none;
@@ -47,6 +58,5 @@
 }
 
 .table-of-contents {
-    margin: 3ch;
-    text-indent: 20ch;
+    text-align: center;
 }
